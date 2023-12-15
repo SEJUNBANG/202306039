@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'HelveticaBold';
+    src: url('font/HelveticaBold.woff') format('woff');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 90px;
+    padding-right: 57px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav a {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    margin-left: 50px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'HelveticaBold';
+}
+
+nav .logo {
+    font-size: 30px;
+    font-weight: bolder
+}
+
+.warp {
+    background: linear-gradient(to bottom, #ffffff, #F5A776);
+    padding-bottom: 500px;
+}
+
+.img1{
+    display: flex;
+    justify-content: center;
+}
+
+.img1 img{
+    width: 950px;
+    height: 100vh;
+
+}
+
+.text1{
+    position: absolute;
+    top: 550px;
+        left: 835px;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-decoration: none;
+    font-size: 150px;
+    font-weight: bold;
+    font-family: 'HelveticaBold';
+}
+
+.img2{
+    padding-top: 161px;
+    padding-left: 381px;
+}
+
+.text2{
+    padding-top: 65px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.img3{
+    padding-top: 358px;
+    padding-left: 321px;
+}
+
+.text3{
+    padding-top: 40px;
+    padding-left: 321px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.text4{
+    text-align: start;
+    padding-top: 45px;
+    padding-left: 612px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.5;
+    
+}
+
+.img4{
+    padding-top: 143px;
+    padding-left: 324px;
+}
+
+.lastbox{
+    display: flex;
+}
+
+.text5{
+    padding-top: 143px;
+    padding-left: 41px;
+    letter-spacing: 0.5;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+}

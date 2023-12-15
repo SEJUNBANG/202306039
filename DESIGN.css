@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'HelveticaBold';
+    src: url('font/HelveticaBold.woff') format('woff');
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+    nav{
+        height: 90px; 
+        padding-right: 57px;
+        background: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       
+    }
+    
+    nav a{
+        font-size: 20px;
+        color: black;
+        font-weight: 600;
+        margin-left: 50px;
+        list-style-type: none;
+        text-decoration: none;
+        font-family: 'HelveticaBold';
+    }
+
+    nav .logo{
+        font-size: 30px;
+        font-weight: bolder
+    }
+    
+    .warp{
+        background: linear-gradient(to bottom, #ffffff, #F5A776);
+        padding-bottom: 500px;
+    }
+
+  .img1{
+    display: flex;
+    justify-content: center;
+}
+
+.img1 img{
+    width: 950px;
+    height: 100vh;
+
+}
+    .text1{
+        font-weight: 800;
+        position: absolute;
+        top: 550px;
+        left: 835px;
+        transform: translate(-50%, -50%);
+        color: black;
+        font-size: 200px;
+        font-family: 'HelveticaBold';
+    }
+    .text2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 800;
+        font-size: 30px;
+        padding-top: 80px;
+    }
+    .img2{
+        display: flex;
+        justify-content: center;
+    padding-top: 25px;
+    }
+    .text3{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        padding-top: 50px;
+        letter-spacing: -2px;
+        line-height: 1.4;
+    }
+    .text4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 800;
+        font-size: 30px;
+        padding-top: 200px;
+        font-family: 'HelveticaBold';
+    }
+    .img3{
+        display: flex;
+        justify-content: center;
+    padding-top: 50px;
+    padding-right: 50px;
+    }
+    .text5{
+        display: flex;
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: -2px;
+        line-height: 1.5;
+        padding-left: 50px;
+        padding-top: 30px;
+    }
+    .text6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        padding-top: 100px;
+        font-family: 'HelveticaBold';
+    }
+
+    .lastbox{
+        display: flex;    
+        align-items: center;
+        padding-top: 50px;
+        padding-left: 366px;
+    }
+
+    .text7{
+            display: flex;
+            font-weight: 500;
+            font-size: 20px;
+            letter-spacing: -2px;
+            line-height: 1.5;
+            padding-left: 50px;
+            margin-bottom: 170px;
+         }
+    
+
+   
+   
